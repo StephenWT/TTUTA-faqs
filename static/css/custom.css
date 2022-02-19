@@ -1,10 +1,34 @@
+/** Change width of content on pages */
 :root {
        --ls-main-content-max-width: 1200px;
        --ls-main-content-max-width-wide: 100%;
 }
+/** Title */
+/* Make title non-editable 
+#main-container .page-title {
+  pointer-events: none; } */
+/** Hide useless sidebar stuff */
 .flashcards-nav {
   display: none;
 }
 .cp__sidebar-help-btn {
   display: none;
 }
+/** Hide recent pages (seems to be ineffective on web)*/
+.nav-content-item.recent {
+  display: none; }
+/** All pages */
+/* Hide selection checkbox (nothing can be done with it) */
+.cp__all_pages table .selector {
+  display: none; }
+/* Hide more columns (not that they don't work, they just don't seem very useful) */
+.cp__all_pages table .backlinks {
+  display: none; }
+.cp__all_pages table .created-at {
+  display: none; }
+/* Hide delete button */
+.cp__all_pages .actions .actions-wrap {
+  display: none; }
+/* Hide more page modification options/things that don't work */
+.cp__all_pages .actions div.r {
+  display: none; }
