@@ -32,3 +32,8 @@
 /* Hide more page modification options/things that don't work */
 .cp__all_pages .actions div.r {
   display: none; }
+/** Image */
+/* Remove delete button */
+a.delete { display: none; }
+/* Disable resizing */
+.resize { resize:none; }
