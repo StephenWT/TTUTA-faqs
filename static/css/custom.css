@@ -35,5 +35,5 @@
 /** Image */
 /* Remove delete button */
 a.delete { display: none; }
-/* Disable resizing */
-.resize { resize:none; }
+/* Disable resizing
+.resize { resize:none; } */
