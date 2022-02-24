@@ -38,48 +38,32 @@ a.delete { display: none; }
 /* Disable resizing
 .resize { resize:none; } */
 
-
-/* CSS CARDS EXPERIMENT */
-.card {
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  	width: 80%
-    max-width: 600px;
-    max-height: 600px;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-align: center;
-    padding-bottom: 500px;
-    transition: all 0.5s ease-out;
-}
-.card:hover {
-background: #EDEDED;
-}
-.card {
-  border-radius: 25px;
-  padding: 5px;
-  width: 400px;
-  height: 400px;
-}
 /* CSS Block Test */
-.cardz {
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  	width: 50%
-    max-width: 400px;
-    max-height: 600px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 500px;
+.zcardz {
+	display: flex;
+  	gap: 2rem;
+   	flex-grow: 1;
+	flex-shrink: 1;
     transition: all 0.5s ease-out;
 }
-.cardz:hover {
+.tcardz:hover {
 background: #EDEDED;
 }
-.cardz {
-  border-radius: 25px;
-  padding: 5px;
-  width: 400px;
-  height: 400px;
+.tcardz {
+  border-radius: 15px;
+  padding: 0px; 
+}
+/* Testing Image Columns */
+.zcolumns {
+ 	display: flex;
+  	gap: 2rem;
+	flex-grow: 1;
+	flex-shrink: 1;
+	transition: all 0.5s ease-out;
+}
+.tcolumn:hover {
+background: #EDEDED;
+}
+.tcolumn {
+  border-radius: 15px;
 }
