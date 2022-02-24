@@ -61,3 +61,25 @@ background: #EDEDED;
   width: 400px;
   height: 400px;
 }
+/* CSS Block Test */
+.cardz {
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  	width: 50%
+    max-width: 400px;
+    max-height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 500px;
+    transition: all 0.5s ease-out;
+}
+.cardz:hover {
+background: #EDEDED;
+}
+.cardz {
+  border-radius: 25px;
+  padding: 5px;
+  width: 400px;
+  height: 400px;
+}
