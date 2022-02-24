@@ -41,9 +41,8 @@ a.delete { display: none; }
 /* CSS Block Test */
 .zcardz {
 	display: flex;
-  	gap: 2rem;
+  	gap: 0rem;
    	flex-grow: 1;
-	flex-shrink: 1;
     transition: all 0.5s ease-out;
 }
 .tcardz:hover {
