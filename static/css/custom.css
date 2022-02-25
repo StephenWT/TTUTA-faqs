@@ -73,3 +73,11 @@ background: #EDEDED;
 			flex-direction: column;
 		}
 }
+@media (max-width: 650px) {
+	.tcardz {
+			width: 80%;
+			padding-left: 0px;
+			margin-left: auto;
+			margin-right: auto;
+	}
+}
