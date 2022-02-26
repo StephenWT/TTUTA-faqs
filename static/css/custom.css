@@ -81,3 +81,33 @@ background: #EDEDED;
 			margin-right: auto;
 	}
 }
+.buthead {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 5px;
+  border: 0.16em solid #023643;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px; 
+  font-family:'Roboto',sans-serif;
+  font-weight: 400;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s;
+}
+.button1:hover {
+  color: #DDDDDD;
+  border-color: #002B36;
+}
+@media (max-width: 650px) {
+	.buthead	{
+			flex-direction: column;
+		}
+}
