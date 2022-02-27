@@ -60,7 +60,7 @@ transition: all 0.5s ease-in;
   	gap: 2rem;
 	flex-grow: 1;
 	flex-shrink: 1;
-	transition: all 0.5s ease-out;
+	transition: all 0.1s ease-out;
 }
 .tcolumn:hover {
 background: #EDEDED;
@@ -107,7 +107,7 @@ background: #EDEDED;
     color: white;
     border-color: #002B36;
     background: #023643;
-    transition: all 0.5s ease-in;
+    transition: all 0.01s ease-in;
   }
   @media (max-width: 650px) {
       .buthead	{
